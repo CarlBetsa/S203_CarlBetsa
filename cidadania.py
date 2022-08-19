@@ -20,3 +20,6 @@ sexo = input("Entre com o sexo: ")
 idade = input("Entre com o idade: ")
 cpf = input("Entre com o cpf: ")
 
+cidadao = Cidadao(nome, sexo, idade, cpf)
+
+print(cidadao.nome)
